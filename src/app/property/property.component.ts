@@ -11,7 +11,7 @@ welcome {{name}}
 })
 export class PropertyComponent implements OnInit {
 
-  public name = "Achal1";
+  public name = "Achal2";
   constructor() { }
 
   ngOnInit(): void {
