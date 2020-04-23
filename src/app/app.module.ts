@@ -8,6 +8,7 @@ import { PropertyComponent } from './property/property.component';
 import { ClassComponent } from './class/class.component';
 import { StyleexampleComponent } from './styleexample/styleexample.component';
 import { EventexampleComponent } from './eventexample/eventexample.component';
+import { TemprefvariableComponent } from './temprefvariable/temprefvariable.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { EventexampleComponent } from './eventexample/eventexample.component';
     PropertyComponent,
     ClassComponent,
     StyleexampleComponent,
-    EventexampleComponent
+    EventexampleComponent,
+    TemprefvariableComponent
   ],
   imports: [
     BrowserModule
