@@ -7,6 +7,7 @@ import { InterpolationComponent } from './interpolation/interpolation.component'
 import { PropertyComponent } from './property/property.component';
 import { ClassComponent } from './class/class.component';
 import { StyleexampleComponent } from './styleexample/styleexample.component';
+import { EventexampleComponent } from './eventexample/eventexample.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { StyleexampleComponent } from './styleexample/styleexample.component';
     InterpolationComponent,
     PropertyComponent,
     ClassComponent,
-    StyleexampleComponent
+    StyleexampleComponent,
+    EventexampleComponent
   ],
   imports: [
     BrowserModule
