@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
@@ -9,6 +10,10 @@ import { ClassComponent } from './class/class.component';
 import { StyleexampleComponent } from './styleexample/styleexample.component';
 import { EventexampleComponent } from './eventexample/eventexample.component';
 import { TemprefvariableComponent } from './temprefvariable/temprefvariable.component';
+import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component';
+import { NgifexampleComponent } from './ngifexample/ngifexample.component';
+import { NgswitchComponent } from './ngswitch/ngswitch.component';
+import { NgforexampleComponent } from './ngforexample/ngforexample.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +24,14 @@ import { TemprefvariableComponent } from './temprefvariable/temprefvariable.comp
     ClassComponent,
     StyleexampleComponent,
     EventexampleComponent,
-    TemprefvariableComponent
+    TemprefvariableComponent,
+    TwowaybindingComponent,
+    NgifexampleComponent,
+    NgswitchComponent,
+    NgforexampleComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
