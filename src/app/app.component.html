@@ -1,5 +1,7 @@
 <div style="text-align:center">
   <h1>Hello {{title}}</h1>
+  <h1>Hello {{msg}}</h1>
+
   <!-- 1 -->
   <app-hello>
 
@@ -44,5 +46,10 @@
   <app-ngforexample>
   </app-ngforexample>
   <!-- 12 -->
+  <app-compinteraction (childEvent)="msg=$event" [parentData]="name">
 
+  </app-compinteraction>
+  <!-- 13 -->
+  <app-pipes>
+  </app-pipes>
 </div>

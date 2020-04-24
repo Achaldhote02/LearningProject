@@ -14,6 +14,8 @@ import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component'
 import { NgifexampleComponent } from './ngifexample/ngifexample.component';
 import { NgswitchComponent } from './ngswitch/ngswitch.component';
 import { NgforexampleComponent } from './ngforexample/ngforexample.component';
+import { CompinteractionComponent } from './compinteraction/compinteraction.component';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { NgforexampleComponent } from './ngforexample/ngforexample.component';
     NgifexampleComponent,
     NgswitchComponent,
     NgforexampleComponent,
+    CompinteractionComponent,
+    PipesComponent,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
